@@ -168,6 +168,54 @@
                     <br>
                     <hr>
                 </section>
+                <!--Sección de Aceite.-->
+                <section>
+                    <!--Titulo de Aceite.-->
+                    <h3>Aceite</h3>
+                    <!--Tabla de Aceite.-->
+                    <table border="1">
+                        <!--Fila Encabezado de la Tabla.-->
+                        <tr>
+                            <!--Encabezado de la Tabla.-->
+                            <th>CONCEPTO</th>
+                            <th>BUENO</th>
+                            <th>MALO</th>
+                            <th>NO APLICA</th>
+                        </tr>
+                        <!--Fila Estado del Aceite.-->
+                        <tr>
+                            <!--Casilla Estado del Aceite.-->
+                            <td><label>Estado Aceite del Motor</label></td>
+                            <!--Botones de Selección. BUENO // MALO // NO APLICA.-->
+                            <td><input type="radio" id="estado_aceite_bueno" value="bueno" name="estado_aceite" required></td>
+                            <td><input type="radio" id="estado_aceite_malo" value="malo" name="estado_aceite" required></td>
+                            <td><input type="radio" id="estado_aceite_no_aplica" value="no_aplica" name="estado_aceite" required></td>
+                        </tr>
+                        <!--Fila Nivel del Aceite-->
+                        <tr>
+                            <!--Casilla Nivel del Aceite-->
+                            <td><label>Nivel Aceite del Motor</label></td>
+                            <!--Botones de Selección. BUENO // MALO // NO APLICA.-->
+                            <td><input type="radio" id="estado_nivel_aceite_bueno" value="bueno" name="estado_nivel_aceite" required></td>
+                            <td><input type="radio" id="estado_nivel_aceite_malo" value="malo" name="estado_nivel_aceite" required></td>
+                            <td><input type="radio" id="estado_nivel_aceite_no_aplica" value="no_aplica" name="estado_nivel_aceite" required></td>
+                        </tr>
+                        <!--Fila Fuga Aceite.-->
+                        <tr>
+                            <!--Casilla Fuga Aceite.-->
+                            <td><label>Fuga Aceite del Motor</label></td>
+                            <!--Botones de Selección. BUENO // MALO // NO APLICA.-->
+                            <td><input type="radio" id="estado_fuga_aceite_bueno" value="bueno" name="estado_fuga_aceite" required></td>
+                            <td><input type="radio" id="estado_fuga_aceite_malo" value="malo" name="estado_fuga_aceite" required></td>
+                            <td><input type="radio" id="estado_fuga_aceite_no_aplica" value="no_aplica" name="estado_fuga_aceite" required></td>
+                        </tr>
+                    </table>
+                    <br>
+                </section>
+
+
+
+
                     <!--Section Estado de liquidos.-->
                 <section>
                     <!--Titulo Estado de Liquidos.-->
@@ -178,13 +226,6 @@
                             <th>BUENO</th>
                             <th>MALO</th>
                             <th>NO APLICA</th>
-                        </tr>
-                        <tr>
-                            <!--Fila Estado Aceite del Motor.-->
-                            <td><label for="estado_aceite">Estado Aceite del Motor</label></td>
-                            <td><input type="radio" id="estado_aceite_bueno" value="bueno" name="estado_aceite" required></td>
-                            <td><input type="radio" id="estado_aceite_malo" value="malo" name="estado_aceite" required></td>
-                            <td><input type="radio" id="estado_aceite_no_aplica" value="no_aplica" name="estado_aceite" required></td>
                         </tr>
                         <tr>
                             <!--Fila Nivel de Liquido de Frenos.-->
@@ -226,13 +267,6 @@
                             <td><input type="radio" id="estado_fuga_liq_refrig_bueno" value="bueno" name="estado_fuga_liq_refrig" required></td>
                             <td><input type="radio" id="estado_fuga_liq_refrig_malo" value="malo" name="estado_fuga_liq_refrig" required></td>
                             <td><input type="radio" id="estado_fuga_liq_refrig_aplica" value="no_aplica" name="estado_fuga_liq_refrig" required></td>
-                        </tr>
-                        <tr>
-                            <!--Fila Fugas Aceite del Motor.-->
-                            <td><label>Fugas Aceite del Motor</label></td>
-                            <td><input type="radio" id="estado_fuga_aceite_motor_bueno" value="bueno" name="estado_fuga_aceite_motor" required></td>
-                            <td><input type="radio" id="estado_fuga_aceite_motor_malo" value="malo" name="estado_fuga_aceite_motor" required></td>
-                            <td><input type="radio" id="estado_fuga_aceite_motor_no_aplica" value="no_aplica" name="estado_fuga_aceite_motor" required></td>
                         </tr>
                         <tr>
                             <!--Fila Fugas Liquido de Frenos.-->
